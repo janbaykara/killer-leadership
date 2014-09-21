@@ -2,7 +2,7 @@
 	"rulers": [
 		{
 			"name": "Mao Zedong",
-			"country": "Belgium",
+			"country": "China",
 			"from": 1943,
 			"to": 1976,
 			"kills": 78000000
@@ -14,9 +14,9 @@
 			"kills": 23000000
 		}, {
 			"name": "Adolf Hitler",
-			"country": "Belgium",
-			"from": 1865,
-			"to": 1909,
+			"country": "Germany",
+			"from": 1933,
+			"to": 1945,
 			"kills": 15000000
 		}, {
 			"name": "Leopold II",

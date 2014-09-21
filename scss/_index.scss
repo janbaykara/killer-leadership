@@ -7,3 +7,20 @@
 | [1] Index/home page
 |
 */
+
+.placeholder-hero {
+	font-size: 26px;
+	color: white;
+	width: 100%;
+	background: $brand-color;
+	border-radius: 4px;
+	padding: 20px 20px;
+	margin: 2px 0px 8px;
+	font-weight: bold;
+}
+
+.ruler {
+	margin-top: 20px;
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 20px;
+}

@@ -1,8 +1,9 @@
 {
-  "name": "lorem-ipsum",
+  "name": "-killer-leadership",
   "version": "0.0.1",
   "dependencies": {
     "foundation": "5.4.2",
-    "angular": "~1.2.x"
+    "angular": "~1.2.x",
+    "angular-foundation": "*"
   }
 }

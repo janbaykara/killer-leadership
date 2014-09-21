@@ -6,10 +6,10 @@
 //
 
 // color scheme
-$brand-color: 		  	#86b717;
+$brand-color: 		  	#cb001b;
 
-$complement-color: 	  	adjust_hue($brand-color, 180);
-$secondary-color: 	  	adjust_hue($brand-color, 120);
+$complement-color: 	  adjust_hue($brand-color, 180);
+$secondary-color: 	  adjust_hue($brand-color, 120);
 $tertiary-color: 	  	adjust_hue($brand-color, -120);
 
 $text-color:         	#333;     
@@ -23,7 +23,7 @@ $link-color-visited:   $link-color;
 
 /* ================== GLOBAL ATOMIC */
 
-@include selection-style($complement-color, $brand-color);
+@include selection-style($brand-color, $background-color);
 
 * {
   @include transition(0.25s, all, ease-out); // # ??? swift-out material design

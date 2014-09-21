@@ -1,8 +1,12 @@
 'use strict';
 
-var app = angular.module("app", []);
+/* -----
+| See: http://pineconellc.github.io/angular-foundation/
+*/
 
-app.controller('GraphController', function($scope,$interval,DataService,CurrentTimeService) {
+var app = angular.module("app", ['mm.foundation']);
+
+app.controller('mainController', function($scope,$interval,DataService,CurrentTimeService) {
 	// Load data from service
     var DataPromise = DataService.getData($scope.topicName);
 
