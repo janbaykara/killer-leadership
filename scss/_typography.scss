@@ -9,8 +9,10 @@ $medium: 600;
 $bold: 800;
 $black: 900;
 
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+
 .brand-font {
-  font-family: 'Helvetica', 'sans-serif' !important;
+  font-family: 'Special Elite', 'sans-serif' !important;
 }
 
 body, input, textarea {

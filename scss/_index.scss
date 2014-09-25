@@ -19,8 +19,75 @@
 	font-weight: bold;
 }
 
+#summary {
+	color: $brand-color;
+	line-height: 1.3em;
+	line-height: 1.3em;
+	font-weight: bold;
+
+	@media #{$small} {
+		padding: 5px 40px;
+	}
+	font-size: 1.4em;
+	text-align: justify;
+
+	@media #{$medium-up} {
+		font-size: 2.1em;
+	}
+}
+
+#rulers {
+  margin-top: 100px;
+  background: rgba(255,255,255,0.9);
+}
+
 .ruler {
-	margin-top: 20px;
+	list-style: none;
 	border-bottom: 1px solid #EEE;
 	padding-bottom: 20px;
+	color: #AAA;
+	font-size: 24px;
+	margin-top: 20px !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ruler-details {
+	color: #AAA;
+	margin-top: -10px;
+	font-size: 60%;
+}
+
+.ruler-stats {
+	font-size: 18px;
+}
+
+.scalp {
+	background: red;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid green;
+	background: rgb(173, 173, 173);
+	color: white;
+	font-size: 7px;
+	font-weight: bold;
+	font-family: serif;
+	text-align: center;
+	padding-top: 7px;
+	margin: 5px 5px;
+	vertical-align: middle;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+
+#references {
+  background: rgba(255,255,255,0.6);
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+#references * {
+  font-size: 95%;
+  color: #888;
 }

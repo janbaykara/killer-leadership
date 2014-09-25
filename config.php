@@ -149,13 +149,7 @@ class App {
 
       </head>
       <body {$this->BODYINJECT}>
-
-      <header class="row" id="document-head">
-        <h1 class="column small-12">{$this->PROJECTNAME}</h1>
-        <nav class="row">
-
-        </nav>
-      </header>
+      
       <!-- ===============
       BEGIN CONTENT VIEW
       ================ -->
