@@ -25,7 +25,11 @@ var gulp = require('gulp'),
 		img: ['img/**/*.jpg','img/**/*.jpeg','img/**/*.gif','img/**/*.png'],
 		svg: ['img/**/*.svg'],
 		js: ['js/*.js'],
-		jslibs: ['vendor/angular/angular.min.js','vendor/angular-foundation/mm-foundation-tpls.min.js'],
+		jslibs: [
+			'vendor/angular/angular.min.js',
+			'vendor/angular-foundation/mm-foundation-tpls.min.js',
+			'vendor/underscore.string/dist/underscore.string.min.js'
+		],
 		sass: ['scss/*.scss']
 	};
 

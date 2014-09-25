@@ -4,6 +4,7 @@
   "dependencies": {
     "foundation": "5.4.2",
     "angular": "~1.2.x",
-    "angular-foundation": "*"
+    "angular-foundation": "*",
+    "underscore.string": "*"
   }
 }
