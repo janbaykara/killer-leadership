@@ -20,3 +20,6 @@ Thumbs.db
 
 # Misc
 logs/*
+public/css/app.min.css
+public/css/print.min.css
+public/js/libs.min.js

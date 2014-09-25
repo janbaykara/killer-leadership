@@ -55,10 +55,13 @@ var gulp = require('gulp'),
 
 	gulp.task('sass', function () {
 		return gulp.src(dev.sass)
-		.pipe(sass({sourceComments: 'map', outputStyle: 'compressed', includePaths : ['vendor/foundation/scss'], errLogToConsole: true }))
+		.pipe(sass({
+			includePaths : ['vendor/foundation/scss'], 
+			errLogToConsole: true 
+		}))
 		.pipe(autoprefixer({
-			browsers: ['last 2 versions'],
-			cascade: false
+			browsers: ['last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4',],
+			cascade: true
 		}))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest(build.css));
@@ -79,10 +82,10 @@ var gulp = require('gulp'),
 	// Project JS
 	gulp.task('js', function() {
 		return gulp.src(dev.js)
-		.pipe(sourcemaps.init())
+		// .pipe(sourcemaps.init())
 		.pipe(concat('app.min.js'))
-		.pipe(uglify({mangle: false}))
-		.pipe(sourcemaps.write())
+		// .pipe(uglify({mangle: false}))
+		// .pipe(sourcemaps.write())
 		.pipe(gulp.dest(build.js));
 	});
 
