@@ -41,7 +41,7 @@
 			"country": "Cambodia",
 			"from": 1963,
 			"to": 1981,
-			"kills": 1700000
+			"kills": 2000000
 		}, {
 			"name": "Kim Il Sung",
 			"country": "North Korea",
@@ -60,10 +60,49 @@
 			"from": 1966,
 			"to": 1975,
 			"kills": 1100000
+		}, {
+			"name": "Mohamed Suharto",
+			"country": "Indonesia",
+			"from": 1965,
+			"to": 1998,
+			"kills": 2250000
+		}, {
+			"name": "Théoneste Bagosora",
+			"country": "Rwanda",
+			"from": 1994.2,
+			"to": 1994.6,
+			"kills": 9000000
+		}, {
+			"name": "Saddam Hussein",
+			"country": "Iraq",
+			"from": 1979,
+			"to": 2003,
+			"kills": 2000000
+		}, {
+			"name": "Ante Pavelić",
+			"country": "Croatia",
+			"from": 1941,
+			"to": 1944,
+			"kills": 700000
+		}, {
+			"name": "Omar al-Bashir",
+			"country": "Sudan",
+			"from": 2003,
+			"to": 2014,
+			"kills": 400000
+		}, {
+			"name": "Meles Zenawi",
+			"country": "Ethiopia",
+			"from": 1991,
+			"to": 2012,
+			"kills": 1000000
 		}
 	], 
 	"references": [
 		"http://list25.com/25-of-historys-deadliest-dictators/2/",
-		"http://memolition.com/2014/03/05/which-dictator-killed-the-most/"
+		"http://memolition.com/2014/03/05/which-dictator-killed-the-most/",
+		"http://tegbar.org/8514",
+		"http://berrystreetbeacon.wordpress.com/2007/03/18/the-brutal-rulers-the-worlds-10-worst-dictators/",
+		"http://www.wonderslist.com/10-most-cruel-rulers-ever-in-history/"
 	]
 }
